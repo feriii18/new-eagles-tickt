@@ -1,75 +1,45 @@
-# Discord-Ticket-Bot
-### A Simple useful ticket bot for discord coded in Discord.js
+## 8 Ticket.
 
- <a href="https://github.com/Arisamiga/Discord-Ticket-Bot//issues">
-   <img alt="Issues" src="https://img.shields.io/github/issues/Arisamiga/Discord-Ticket-Bot?color=0088ff" />
-  </a>
-  
-[![CodeFactor](https://www.codefactor.io/repository/github/arisamiga/discord-ticket-bot/badge?s=ce8618765d3ec8b05264bac256588a4411f7712b)](https://www.codefactor.io/repository/github/arisamiga/discord-ticket-bot) 
+> 8 Ticket is new ticket bot with a new idea
 
-<img src= "https://i.imgur.com/bQhJm9q.jpg"> <img src="https://i.imgur.com/Zp2ke2P.jpg">
+## 📜 Requirements.
 
-## Installation
+1. Make Your own discord bot [from here](https://discord.com/developers/applications/)
+3. make sure you have [Git](https://git-scm.com/downloads), [VS Code](https://code.visualstudio.com/download), [nodejs](https://nodejs.org/en/download/current/) in yur pc (this is only required if you using computer)
+
+## 🚀 Getting Started.
+
+if you using [repl.it](https://www.replit.com/) soo you can fork the project [from here](https://replit.com/@NIR0/8Ticket?v=1)
+
+else if you using [glitch](https://www.glitch.com/) soo you can remix [from here](https://glitch.com/edit/#!/8ticketbot)
+
+but if you using your computer soo follow this steps!
+
+1. make a new folder name it any thing
+2. press right click and chose `git bash here`
+3. then he well open a cmd for you type this command inside: `git clone https://github.com/DevelopersSupportAR/8Ticket.git`
+
+well done you forked the project in your pc
+
+1. find a folder could `config` and open the `bot.js` file (make sure if you using computer to open this file with `VS Code`)
+2. you well find thar thing like this:
+```js
+require('dotenv').config()
+
+module.exports = {
+  token: process.env.TOKEN, // process the bot token from env file soo make a file outside all the files but in the bot source folder name it ".env" and type inside "TOKEN=Your Discord Bot Token"
+  prefix: process.env.PREFIX // process the bot prefix from env file soo go to your .env file and type inside "PREFIX=Your bot prefix"
+};
 ```
-You have to install NodeJS and Git.
-Create a folder.
-Open Command Promt.
-Type in: cd The path to your new folder. (Example: C:\Users\User\Desktop\New folder)
-Press enter.
-After that type in: git clone https://github.com/Arisamiga/Discord-Ticket-Bot.git
-Press enter.
-When you see all Github files in your folder you installed the bot files succesfully.
-After that you would want to edit the config.json.
-```
-Change the following
-```
-{
-    "token": "(Enter Token here)",
-    "prefix": "(Enter Prefix Here)",
-    "owner": "(Enter id of Bot Owner)",
-    "signup_color": "(Enter Hex Code for signup Embed Here)",
-    "signup_title": "(Enter Title for signup Embed Here)",
-    "answer_title": "(Enter Title for Answer Embed Here)",
-    "answer_color": "(Enter Hex Code for Answer Embed Here)",
-    "answer_description": "(Enter Answer Embed Description) (Use \n for breaking lines!)"
-}
 
-```
-Get your discord token from https://discord.com/developers/applications
+3. then install your packages if you using [repl.it](https://www.replit.com/) just press `Run` and he well install the packages for you but if you using [glitch](https://www.glitch.com/) soo this website is auto run and install your packages but if you using your computer soo open any cmd and go inside the bot source folder and type `npm install`
 
-And you should be ready to start the bot! 
+4. if you using [glitch](https://www.glitch.com/) or [replit](https://replit.com/) soo the bot have to be run successfully but if you using you computer soo type `npm start` in the same cmd you opened form installing packages
 
-Use either use ```npm start``` or ```node main.js``` to start the bot in your command prompt!
+## 🌀 Support
 
-## Setting the Reaction Embed!
+Make sure if have any problem in this bot soo fell free to join [Developer Support](https://discord.gg/H6B3RhATMU)
 
-To start the Reaction Embed you should have the bot enabled.
-Next you should enter the command showed bellow 
-```
-(your Prefix)startapps
-```
-And after that you should have made a Reaction Embed! Congrats!
-So when someone reacts to the message a channel will be created and the Answer Embed will be sent.
+## ✨ Mad By
 
-## Features!
-<ul>
-<li>
-Supports Multiple Channels
-</li>
-<li>
-Custom Emded Titles
-</li>
-<li>
-Custom Embed Descriptions
-</li>
-<li>
-Custom Embed Color Option
-</li>
-<li>
-Easy to use!
-</li>
-</ul>
-
-### If you are having troubles with the bot i recommend opening a issue.
-
-***Made By Arisamiga***
+`@ニロ#3121`
